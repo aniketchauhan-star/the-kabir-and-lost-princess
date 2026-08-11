@@ -165,7 +165,9 @@ window.STORY = {
     "pages/4.mp4":                4549743,
     "pages/2.mp4":                5772094,
     "pages/3.mp4":                6893179,
-    "pages/1.mp4":               19841224
+    "pages/1.mp4":               19833419
   },
   // 9 files, 37.5 MB — what a first-time reader downloads before Play appears.
+  // (5.mp4 is deliberately absent: it is not listed in `pages`, so it is never
+  //  fetched — counting it would inflate the loading bar's total.)
 };
