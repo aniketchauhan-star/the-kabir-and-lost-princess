@@ -90,24 +90,30 @@ window.STORY = {
        her, the ring left behind: "I promise! I will find you, Tara." */
     { type: "video", src: "pages/1.mp4" },
 
-    /* 2 — THE NINE GEMS (0:33)
-       "Great work! You found all nine gems" → they go into the holes on the
-       door, the door opens: "Come now Kabir… your next challenge." */
+    /* 2 — THE LAMP AND THE GENIE (1:01)
+       Kabir asks the villagers where Tara was taken, follows the trail into the
+       cave and rubs the lamp: "Who are you?" The genie sets the terms of the
+       quest and Kabir agrees — "Okay! I will do it." */
     { type: "video", src: "pages/2.mp4" },
 
-    /* 3 — THE FINAL CHALLENGE (0:45)
-       "Now, let us go to our final challenge" — the matching game on the
-       plates: "That key will open the final door for you." */
+    /* 3 — THE NINE GEMS (0:33)
+       "Great work! You found all nine gems" → they go into the holes on the
+       door, the door opens: "Come now Kabir… your next challenge." */
     { type: "video", src: "pages/3.mp4" },
 
-    /* 4 — THE REUNION (0:24)
-       "You did a wonderful job matching everything!" → the key opens the last
-       door → "Oh Tara! I missed you" → "You were brave and kind, Kabir." */
+    /* 4 — THE FINAL CHALLENGE (0:45)
+       "Now, let us go to our final challenge" — the matching game on the
+       plates: "That key will open the final door for you." */
     { type: "video", src: "pages/4.mp4" },
 
-    /* NOTE: pages/5.mp4 is left out on purpose — it is the same footage as
-       3.mp4 (identical frames and runtime, re-exported). Delete it to save
-       6.9 MB of download, or list it here if it really is a separate beat. */
+    /* 5 — THE REUNION (0:24)
+       "You did a wonderful job matching everything!" → the key opens the last
+       door → "Oh Tara! I missed you" → "You were brave and kind, Kabir." */
+    { type: "video", src: "pages/5.mp4" },
+
+    /* NOTE: pages/6.mp4 is left out on purpose — it is the same footage as
+       4.mp4 (identical frames and runtime, re-exported). Delete it to save
+       6.6 MB of download, or list it here if it really is a separate beat. */
 
     /* ── EXAMPLE: an interactive "explore the scene" page ───────────────────
        Uncomment and point it at your own still + clips. x/y are the CENTRE of
@@ -162,12 +168,13 @@ window.STORY = {
     "sfx/play button sound.ogg":    13840,
     "pages/play button.webp":      148188,
     "pages/cover page.png":       2441570,
-    "pages/4.mp4":                4549743,
-    "pages/2.mp4":                5772094,
-    "pages/3.mp4":                6893179,
+    "pages/5.mp4":                4549743,
+    "pages/3.mp4":                5772094,
+    "pages/4.mp4":                6893179,
+    "pages/2.mp4":               15927206,
     "pages/1.mp4":               19833419
   },
-  // 9 files, 37.5 MB — what a first-time reader downloads before Play appears.
-  // (5.mp4 is deliberately absent: it is not listed in `pages`, so it is never
+  // 10 files, 53.0 MB — what a first-time reader downloads before Play appears.
+  // (6.mp4 is deliberately absent: it is not listed in `pages`, so it is never
   //  fetched — counting it would inflate the loading bar's total.)
 };
